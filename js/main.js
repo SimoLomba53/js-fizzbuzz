@@ -11,5 +11,5 @@ for (let i=0; i < 100 ;i++){
     console.log(square);
     square.innerHTML=i;
     ListItem.append(square);
-    square.classList("box");
-};
+    square.classList.add("box");
+}
