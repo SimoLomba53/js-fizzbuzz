@@ -1,17 +1,37 @@
-.box{
-    width:20px;
-    height:20px;
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.blue{
+#lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width:1200px;
+    gap: 20px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blue {
     background-color: blue;
 
 }
 
-.green{
+.green {
     background-color: green;
 }
 
-.yellow{
+.yellow {
     background-color: yellow;
 }
