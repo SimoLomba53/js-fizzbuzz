@@ -6,10 +6,10 @@ const ListItem = document.getElementById("lista")
 console.log(ListItem);
 
 
-for (let i=0;i<100;i++){
+for (let i=0; i < 100 ;i++){
     const square=document.createElement("li");
     console.log(square);
     square.innerHTML=i;
     ListItem.append(square);
     square.classList("box");
-}
+};
