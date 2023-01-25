@@ -1,3 +1,13 @@
+body{
+    background-color: rgb(0, 70, 95);
+}
+
+#titolo {
+    text-align: center;
+    color: white;
+    font-size: 4rem
+}
+
 .conteiner{
     display: flex;
     align-items: center;
@@ -34,4 +44,8 @@
 
 .yellow {
     background-color: yellow;
+}
+
+.red{
+    background-color: rgb(164, 0, 63);
 }

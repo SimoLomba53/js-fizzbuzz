@@ -1,4 +1,4 @@
-//COLLEGARE I VARI QUADRATI ALLE PROPRIE CLASSI
+//COLLEGARE COLLEGAMENTO ALL'ID DI UL IN HTML
 //CREARE 100 QUADRATI
 //SUDDIVIDERLI IN BLU,FLIZZ MULTIPLI DI 3,BLIZZ MULTIPLI DI 5
 
@@ -16,11 +16,20 @@ for (let i=1; i < 100 ;i++){
 
     if(i % 3 == 0) {
       square.classList.add("green")
+      square.innerHTML = "fizz";
     }
-    if(i % 5==0 ) {
-        square.classList.add("yellow")
+    if(i % 5 == 0 ) {
+      square.classList.add("yellow")
+      square.innerHTML = "buzz";
+      
+    }
+    if(i % 15 == 0){
+      square.classList.add("red")
+      square.innerHTML= "fizzbuzz";
+
+      
     }
     else{
-        square.classList.add("blue")
+      square.classList.add("blue")
     }
 }
